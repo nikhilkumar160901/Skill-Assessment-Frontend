@@ -1,0 +1,56 @@
+.questions-container {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 20px;
+}
+
+.skill-select {
+  margin-bottom: 20px;
+}
+
+.add-question-form {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.add-question-form input[type="text"],
+.add-question-form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.option-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.submit-btn {
+  background: #4f46e5;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #4338ca;
+}
+
+.questions-list {
+  margin-top: 20px;
+}
+
+.question-card {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}

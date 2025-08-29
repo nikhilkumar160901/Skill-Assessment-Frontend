@@ -1,0 +1,91 @@
+.reports-container {
+  max-width: 1100px;
+  margin: 80px auto 40px; /* top margin so navbar won't overlap */
+  padding: 25px 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  font-family: "Inter", sans-serif;
+}
+
+.reports-container h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #111827;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 6px;
+}
+
+.reports-container h3 {
+  font-size: 1.25rem;
+  margin: 25px 0 12px;
+  color: #374151;
+  font-weight: 600;
+}
+
+/* Dropdowns */
+.reports-container label,
+.reports-container select {
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.reports-container select {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  cursor: pointer;
+  transition: border 0.2s ease;
+}
+
+.reports-container select:hover {
+  border-color: #4f46e5;
+}
+
+/* Tables */
+.reports-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0 20px;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.reports-container table th,
+.reports-container table td {
+  border: 1px solid #e5e7eb;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.reports-container table th {
+  background: #f3f4f6;
+  font-weight: 600;
+  color: #374151;
+}
+
+.reports-container table tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.reports-container table td {
+  color: #111827;
+}
+
+/* Chart containers */
+.reports-container .recharts-responsive-container {
+  margin-top: 15px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+/* Spacing between sections */
+.reports-container > div {
+  margin-bottom: 30px;
+}

@@ -1,0 +1,86 @@
+/* Center the login form */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card styling */
+.login-card {
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+}
+
+/* Title & subtitle */
+.login-title {
+  margin-bottom: 0.3rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.login-subtitle {
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Inputs */
+.login-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.6rem 0;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.login-input:focus {
+  border-color: #2575fc;
+  outline: none;
+}
+
+/* Button */
+.login-button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background: #2575fc;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-button:hover {
+  background: #1b5edb;
+}
+
+/* Register link */
+.register-text {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.register-link {
+  color: #2575fc;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}

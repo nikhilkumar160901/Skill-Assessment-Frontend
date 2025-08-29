@@ -1,0 +1,126 @@
+/* Fullscreen center */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card */
+.register-card {
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Title & subtitle */
+.register-title {
+  margin-bottom: 0.3rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.register-subtitle {
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Inputs */
+.register-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.6rem 0;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.register-input:focus {
+  border-color: #ff4f81;
+  outline: none;
+}
+
+/* Button */
+.register-button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background: #ff4f81;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.register-button:hover {
+  background: #e13b6c;
+}
+
+/* Login link */
+.login-text {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.login-link {
+  color: #ff4f81;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+/* Fullscreen center */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  /* Animated gradient */
+  background: linear-gradient(-45deg, #ff758c, #ff7eb3, #a18cd1, #fbc2eb);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Gradient animation */
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Card */
+.register-card {
+  background: rgba(255, 255, 255, 0.9); /* Slight transparency to see bg */
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
