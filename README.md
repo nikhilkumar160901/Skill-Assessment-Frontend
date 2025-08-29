@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Skill Assessment Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based frontend for the Skill Assessment Platform.
+This connects to the backend API
+ (Node.js + Express + MySQL + Redis) and provides a user-friendly interface for candidates, admins, and evaluators.
 
-## Available Scripts
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Authentication & Authorization
+  User registration & login
+  JWT-based auth with protected routes
+  Role-based access (Admin/User)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- User Dashboard
+  Take skill assessments
+  Test history
 
-### `npm test`
+- Admin Panel
+  Manage users (CRUD)
+  Manage skills & questions
+  Generate reports (user performance, skill gap, time-based trends)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Assessments
+  Start and submit attempts
+  Timed questions and auto-submit
+  History of attempts
 
-### `npm run build`
+- Reports & Analytics
+  Graphical representation of user scores
+  Skill gap identification
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React (UI framework)
+- React Router (routing & protected routes)
+- Axios (API calls)
+- TailwindCSS / Material UI (styling)
+- Chart.js / Recharts (data visualization)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📂 Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+frontend/
+│── public/               # Static assets
+│── src/
+│   ├── api/              # Axios setup & API services
+│   ├── components/       # Shared components (Navbar, Loader, etc.)
+│   ├── features/         # Helpers (auth, validators, etc.)
+│   ├── pages/            # Page components (Login, Dashboard, Admin, etc.)
+│   ├── routes/           # Protected & public route definitions
+│   ├── utils/            # Entry point
+│   ├── App.js            # Root component
+│   └── index.js          
+│
+│── package.json
+│── .env
+│── Dockerfile
+│── README.md
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ Setup & Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Clone repository
+- Install dependencies
+- Change backend URL
+- Run locally - npm start
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
